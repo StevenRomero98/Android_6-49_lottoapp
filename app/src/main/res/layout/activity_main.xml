@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="144dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/txtfldlotteryrandomnum1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:enabled="false"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/txtfldlotteryrandomnum2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:enabled="false"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/txtfldlotteryrandomnum3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:enabled="false"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/txtfldlotteryrandomnum4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:enabled="false"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/txtfldlotteryrandomnum5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:enabled="false"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/txtfldlotteryrandomnum6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:enabled="false"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/txtfldlotteryinputnum1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:maxLength="2"
+            android:text=""
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/txtfldlotteryinputnum2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:maxLength="2"
+            android:text=""
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/txtfldlotteryinputnum3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:maxLength="2"
+            android:text=""
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/txtfldlotteryinputnum4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:maxLength="2"
+            android:text=""
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/txtfldlotteryinputnum5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:maxLength="2"
+            android:text=""
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/txtfldlotteryinputnum6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:maxLength="2"
+            android:text=""
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCompute"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="0dp"
+        android:text="Draw" />
+
+    <EditText
+        android:id="@+id/txtfldOUTPUT"
+        android:layout_width="274dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        android:enabled="false"
+        android:gravity="center"
+        android:shadowColor="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="183dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/s649" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="204dp"
+        android:text="Draw Result"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="195dp"
+        android:text="Input Your Number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:id="@+id/btnBetAgain"
+        android:layout_width="55dp"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView3"
+        android:text="Button"
+        android:visibility="invisible" />
+
+</RelativeLayout>
